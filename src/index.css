@@ -1,0 +1,10 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.expandItems {
+  @apply block py-2 px-4 md:bg-white md:m-1 md:border-2 border-gray-500 text-gray-500 hover:text-gray-800 md:w-48
+}
