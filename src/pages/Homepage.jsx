@@ -4,9 +4,9 @@ import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
 import SocialMedia from "../components/SocialMedia";
 
-function HomePage() {
+function HomePage({ themeColor }) {
   return (
-    <div className="bg-[#c00000]">
+    <div className={themeColor}>
       <div className="p-4">
         <div className="flex flex-col items-center md:flex-row md:items-start">
           <img

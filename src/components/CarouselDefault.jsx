@@ -50,13 +50,13 @@ const CarouselDefault = () => {
       </div>
 
       <button
-        className="absolute left-4 top-1/2 z-10 -translate-y-1/2 transform rounded-sm bg-red-500 bg-opacity-50 p-2 text-white hover:bg-opacity-100"
+        className="prev-next absolute left-4 top-1/2 z-10 -translate-y-1/2 transform rounded-sm"
         onClick={goToPrevSlide}
       >
         &#8592;
       </button>
       <button
-        className="absolute right-4 top-1/2 z-10 -translate-y-1/2 transform rounded-sm bg-red-500 bg-opacity-50 p-2 text-white hover:bg-opacity-100"
+        className="prev-next absolute right-4 top-1/2 z-10 -translate-y-1/2 transform  rounded-sm"
         onClick={goToNextSlide}
       >
         &#8594;
